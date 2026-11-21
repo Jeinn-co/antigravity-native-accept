@@ -2,7 +2,7 @@
 	"name": "antigravity-native-accept",
 	"displayName": "Antigravity Native Accept",
 	"description": "Auto-accept Antigravity edits in VS Code via native commands without CDP or remote debugging flags.",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"publisher": "jeinn-co",
 	"author": {
 		"name": "Zevi Liao",
