@@ -12,7 +12,7 @@
   <img src="icon.png" width="128" alt="Antigravity Native Accept icon" />
 </p>
 
-由 [Jeinn Co](https://www.jeinn.co) 製作的輕量 VS Code 擴充套件：透過 Antigravity 原生 VS Code 指令自動接受待處理的程式碼變更，**不需開啟 Chrome DevTools Protocol (CDP)** 或 `--remote-debugging-port`。
+由 Zevi Liao（[Jeinn Co](https://www.jeinn.co)）製作的輕量 VS Code 擴充套件：透過 Antigravity 原生 VS Code 指令自動接受待處理的程式碼變更，**不需開啟 Chrome DevTools Protocol (CDP)** 或 `--remote-debugging-port`。
 
 ## 為什麼選擇原生方案（無 CDP）？
 
@@ -67,6 +67,6 @@ code --install-extension antigravity-native-accept-0.1.0.vsix
 - 需已安裝官方 **Google Antigravity** 擴充套件（`google.google-antigravity`），原生 `antigravity.*` 指令才會存在。
 - 僅觸發 Antigravity 的檔案變更／diff 接受指令，不會自動核准上述指令範圍以外的其他確認視窗。
 
-## 授權
+## 作者與授權
 
-MIT © [Jeinn Co](LICENSE)
+作者：**Zevi Liao**（[Jeinn Co](https://www.jeinn.co)）· MIT © [Zevi Liao](LICENSE)

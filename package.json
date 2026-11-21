@@ -4,6 +4,10 @@
 	"description": "Auto-accept Antigravity edits in VS Code via native commands without CDP or remote debugging flags.",
 	"version": "0.1.0",
 	"publisher": "jeinn-co",
+	"author": {
+		"name": "Zevi Liao",
+		"url": "https://www.jeinn.co"
+	},
 	"license": "MIT",
 	"icon": "icon.png",
 	"repository": {

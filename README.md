@@ -12,7 +12,7 @@
   <img src="icon.png" width="128" alt="Antigravity Native Accept icon" />
 </p>
 
-Lightweight VS Code extension by [Jeinn Co](https://www.jeinn.co) that automatically accepts pending Antigravity edits using native VS Code commands—without Chrome DevTools Protocol (CDP) or `--remote-debugging-port`.
+Lightweight VS Code extension by Zevi Liao ([Jeinn Co](https://www.jeinn.co)) that automatically accepts pending Antigravity edits using native VS Code commands—without Chrome DevTools Protocol (CDP) or `--remote-debugging-port`.
 
 ## Why Native (No CDP)?
 
@@ -67,6 +67,6 @@ code --install-extension antigravity-native-accept-0.1.0.vsix
 - Requires the official **Google Antigravity** extension (`google.google-antigravity`) in VS Code so the native `antigravity.*` accept commands exist.
 - Only invokes Antigravity's diff/change accept commands; it does not auto-approve arbitrary external prompts outside those commands.
 
-## License
+## Author & License
 
-MIT © [Jeinn Co](LICENSE)
+Created by **Zevi Liao** ([Jeinn Co](https://www.jeinn.co)) · MIT © [Zevi Liao](LICENSE)
