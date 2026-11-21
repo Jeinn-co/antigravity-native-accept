@@ -1,0 +1,49 @@
+{
+	"name": "antigravity-native-accept",
+	"displayName": "Antigravity Native Accept",
+	"description": "Auto-accept Antigravity edits in VS Code via native commands without CDP or remote debugging flags.",
+	"version": "0.1.0",
+	"publisher": "jeinn-co",
+	"license": "MIT",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Jeinn-co/antigravity-native-accept.git"
+	},
+	"homepage": "https://github.com/Jeinn-co/antigravity-native-accept#readme",
+	"bugs": {
+		"url": "https://github.com/Jeinn-co/antigravity-native-accept/issues"
+	},
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"antigravity",
+		"auto-accept",
+		"native",
+		"diff",
+		"ai"
+	],
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "antigravityNativeAccept.toggle",
+				"title": "Antigravity Native Accept: Toggle ON/OFF"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "antigravityNativeAccept.toggle",
+				"key": "ctrl+shift+a",
+				"mac": "cmd+shift+a"
+			}
+		]
+	}
+}
