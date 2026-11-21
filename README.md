@@ -48,7 +48,7 @@ While enabled, the extension executes these native Antigravity commands once per
 2. Install via CLI:
 
 ```bash
-code --install-extension antigravity-native-accept-0.1.0.vsix
+code --install-extension antigravity-native-accept-<version>.vsix
 ```
 
 Or in VS Code: open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`) → run **Extensions: Install from VSIX...** and select the downloaded file.
@@ -59,7 +59,7 @@ Or in VS Code: open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`) → run
 git clone https://github.com/Jeinn-co/antigravity-native-accept.git
 cd antigravity-native-accept
 npx @vscode/vsce package
-code --install-extension antigravity-native-accept-0.1.0.vsix
+code --install-extension antigravity-native-accept-<version>.vsix
 ```
 
 ## Notes & Scope

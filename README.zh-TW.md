@@ -48,7 +48,7 @@
 2. 執行 CLI 安裝：
 
 ```bash
-code --install-extension antigravity-native-accept-0.1.0.vsix
+code --install-extension antigravity-native-accept-<version>.vsix
 ```
 
 或在 VS Code 按 `Cmd+Shift+P` / `Ctrl+Shift+P` → 執行 **Extensions: Install from VSIX...** 選取下載好的 `.vsix`。
@@ -59,7 +59,7 @@ code --install-extension antigravity-native-accept-0.1.0.vsix
 git clone https://github.com/Jeinn-co/antigravity-native-accept.git
 cd antigravity-native-accept
 npx @vscode/vsce package
-code --install-extension antigravity-native-accept-0.1.0.vsix
+code --install-extension antigravity-native-accept-<version>.vsix
 ```
 
 ## 注意事項與邊界
