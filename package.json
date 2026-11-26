@@ -1,8 +1,8 @@
 {
 	"name": "antigravity-native-accept",
-	"displayName": "Antigravity Native Accept",
-	"description": "Auto-accept Antigravity edits in VS Code via native commands without CDP or remote debugging flags.",
-	"version": "0.1.4",
+	"displayName": "Antigravity Auto Accept (Native · No CDP)",
+	"description": "Auto-accept Google Antigravity edits in VS Code via native commands — no CDP, no --remote-debugging-port, 65 lines of auditable MIT JS.",
+	"version": "0.1.5",
 	"publisher": "jeinn-co",
 	"author": {
 		"name": "Zevi Liao",
@@ -22,14 +22,19 @@
 		"vscode": "^1.80.0"
 	},
 	"categories": [
+		"Machine Learning",
 		"Other"
 	],
 	"keywords": [
 		"antigravity",
+		"auto accept",
 		"auto-accept",
+		"google antigravity",
+		"no cdp",
 		"native",
 		"diff",
-		"ai"
+		"ai",
+		"agent"
 	],
 	"activationEvents": [
 		"onStartupFinished"

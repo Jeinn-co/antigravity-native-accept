@@ -30,3 +30,11 @@ jobs:
         with:
           files: "*.vsix"
           generate_release_notes: true
+
+      - name: Publish to VS Code Marketplace
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: |
+          if [ -n "$VSCE_PAT" ]; then
+            npx --yes @vscode/vsce publish --packagePath *.vsix -p "$VSCE_PAT"
+          fi
